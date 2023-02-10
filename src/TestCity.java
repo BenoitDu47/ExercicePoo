@@ -64,7 +64,7 @@ public class TestCity {
 //			compt++;
 //		}
 //		
-//		System.out.println("Le nombre de ville dans le programme est: " + City.conteur);
+//		System.out.println("Le nombre de ville dans le programme est: " + City.counter);
 		
 
 	}

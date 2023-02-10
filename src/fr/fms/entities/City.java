@@ -1,3 +1,4 @@
+package fr.fms.entities;
 /**
  * 
  * @author ThouryB
@@ -33,6 +34,13 @@ public class City {
 		this.counter ++;
 	}
 	
+	public City(String name) {
+		setName(name);
+		this.country = "unknown";
+		this.numberOfInhabitants = 0;
+		this.counter ++;
+	}
+	
 	public City() {
 		this.name = "unknown";
 		this.country = "unknown";
@@ -57,7 +65,7 @@ public class City {
 	@Override
 	public String toString() {
 		return "Ville de " + getName() + " en " + getCountry()
-		+ " ayant " + getNumberOfInhabitants() + " d'habitants";	
+		+ " ayant " + getNumberOfInhabitants() + " d'habitants" ;	
 }
 	
 	public String display() {
